@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import "../../styles/variables.css";
+
+.logo__container {
+  width: 31px;
+  height: 31px;
+}
+
+.menu__open {
+  z-index: 1001;
+  position: relative;
+}
+
+.nav__container {
+  padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+}
+.nav__logo {
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo__text {
+  color: var(--navigation-color);
+
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.open__btn {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.menu__wrapper {
+  width: 100%;
+  transform: translateX(-100%);
+  height: 100%;
+  background-color: var(--menu-background);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: transform 0.5s ease;
+  padding: 50% 20px;
+}
+
+.menu__wrapper.menu__wrapper--active {
+  transform: translateY(0);
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu__item {
+  font-size: 32px;
+  color: var(--navigation-color);
+  font-weight: 500;
+}
+
+.menu__item--search {
+  font-size: 36px;
+}
