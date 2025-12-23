@@ -5,8 +5,9 @@ import { CiSearch } from "react-icons/ci";
 import { TbMenu2 } from "react-icons/tb";
 import navLogo from "./nav__logo.svg";
 import { IoCloseSharp } from "react-icons/io5";
+import { Button } from "../Button/Button";
 
-import "./Nav.css";
+import "./Header.css";
 
 export default function Nav() {
   const [isOpened, setOpened] = useState(false);
@@ -46,7 +47,7 @@ export default function Nav() {
                 </a>
               </li>
               <li className="menu__item menu__item--contact">
-                <a href="">Contact Us</a>
+                <Button padding={"15px 35px"}>Contact Us</Button>
               </li>
             </ul>
           </div>

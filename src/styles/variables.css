@@ -1,4 +1,12 @@
 :root {
   --menu-background: #fff;
   --navigation-color: #333333;
+  --accent-color: #7c4ee4;
+  --text-secondary: #fff;
+  --text-primary: #333333;
+
+  --font-primary: "Raleway", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+  --font-tertiary: "Outfit", sans-serif;
+  --font-quarterary: "Urbanist", sans-serif;
 }

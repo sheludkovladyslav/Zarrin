@@ -1,12 +1,11 @@
-import "./App.css";
 import "./styles/reset.css";
-
-import Nav from "./components/Nav/Nav";
+import "./styles/common.css";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <>
-      <Nav></Nav>
+      <Header></Header>
     </>
   );
 }

@@ -1,0 +1,6 @@
+.button {
+  background-color: var(--accent-color);
+  color: var(--text-secondary);
+  border-radius: 5px;
+  cursor: pointer;
+}
