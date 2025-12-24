@@ -120,6 +120,7 @@
   .post__button {
     font-size: 14px;
     padding: 16px 48px;
+    cursor: pointer;
   }
 
   .hero__picture {
