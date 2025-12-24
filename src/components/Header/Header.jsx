@@ -22,7 +22,7 @@ export default function Nav() {
 
   return (
     <nav className="nav">
-      <div className="nav__container">
+      <div className="nav__container container">
         <div className="nav__logo logo">
           <div className="logo__container">
             <img src={navLogo} alt="" className="logo__picture" />

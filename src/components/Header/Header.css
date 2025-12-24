@@ -12,10 +12,9 @@
 }
 
 .nav__container {
-  padding: 24px 20px;
+  padding: 24px 0;
   display: flex;
   justify-content: space-between;
-  position: relative;
 }
 
 .nav__logo {
@@ -80,8 +79,6 @@
 @media (min-width: 1024px) {
   .nav__container {
     padding: 15px 0;
-    max-width: 886px;
-    margin: 0 auto;
   }
   .menu__open {
     display: none;
@@ -140,7 +137,6 @@
   }
 
   .nav__container {
-    max-width: 1234px;
     padding: 21px 0;
   }
 }

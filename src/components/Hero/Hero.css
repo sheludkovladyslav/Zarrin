@@ -1,0 +1,140 @@
+.post__info {
+  letter-spacing: 0.1em;
+  margin-bottom: 5px;
+}
+
+.hero {
+  background-color: var(--hero-background);
+  color: var(--text-secondary);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__container {
+  padding: 40px 0;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+}
+
+.picture__img {
+  border-radius: 15px;
+}
+
+.post__title {
+  font-size: 36px;
+  line-height: calc(40.3 / 36);
+  margin-bottom: 20px;
+  max-width: 289px;
+}
+
+.post__description {
+  max-width: 289px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.post__button {
+  border: none;
+  background-color: var(--hero-btn);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 10px;
+  padding: 11px 35px;
+  border-radius: 5px;
+}
+
+@media (min-width: 1024px) {
+  .hero__container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 90px 0 70;
+    gap: 0;
+  }
+
+  .hero::after {
+    content: "";
+    width: 557px;
+    height: 271px;
+    background-image: url("./linesdown.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -204px;
+    bottom: -100px;
+  }
+
+  .hero__post {
+    max-width: 420px;
+    width: 100%;
+  }
+
+  .hero__picture {
+    max-width: 420px;
+    z-index: 10;
+  }
+
+  .post__info {
+    margin-bottom: 25px;
+  }
+
+  .post__description {
+    margin-bottom: 46px;
+    max-width: 300px;
+  }
+
+  .post__title {
+    font-size: 46px;
+    line-height: calc(62 / 45);
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero__container {
+    padding: 122px 0 98px;
+  }
+
+  .hero__post {
+    max-width: 580px;
+  }
+
+  .post__info {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .post__title {
+    font-size: 64px;
+    line-height: 134%;
+    margin-bottom: 28px;
+  }
+
+  .post__description {
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 64px;
+    max-width: 416px;
+  }
+
+  .post__button {
+    font-size: 14px;
+    padding: 16px 48px;
+  }
+
+  .hero__picture {
+    max-width: 608px;
+  }
+
+  .hero::after {
+    content: "";
+    width: 777px;
+    height: 378px;
+    background-image: url("./linesdown.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -106px;
+  }
+}
