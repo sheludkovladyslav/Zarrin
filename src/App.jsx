@@ -3,6 +3,7 @@ import "./styles/common.css";
 import Header from "./components/Header/Header";
 import Post from "./db/post.json";
 import { Hero } from "./components/Hero/Hero";
+import { PopularPost } from "./components/PopularPost/PopularPost";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </header>
       <main>
         <Hero post={Post}></Hero>
+        <PopularPost></PopularPost>
       </main>
     </>
   );

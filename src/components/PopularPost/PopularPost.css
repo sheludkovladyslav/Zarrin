@@ -1,0 +1,36 @@
+.popularPost__container {
+  border: 1px solid var(--post-border);
+  border-radius: 15px;
+  padding: 20px 17px;
+}
+
+.popularPost__img {
+  margin-bottom: 25px;
+}
+
+.popularPost__category {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-family: var(--font-secondary);
+  font-size: 9px;
+  margin-bottom: 15px;
+}
+
+.category__type {
+  text-transform: uppercase;
+}
+
+.category__date {
+  color: var(--post-date);
+}
+
+.popularPost__title {
+  line-height: calc(24 / 22);
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.popularPost__description {
+  color: var(--post-description);
+}
