@@ -7,6 +7,7 @@ import { PopularPost } from "./components/PopularPost/PopularPost";
 import { Posts } from "./components/RecentPost/Posts";
 import recentPosts from "./db/RecentPosts.json";
 import popularPosts from "./db/PopularPosts.json";
+import Subscription from "./components/Subscription/Subscription";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
         <PopularPost></PopularPost>
         <Posts title={"Our Recent Post"} posts={recentPosts}></Posts>
         <Posts title={"Popular Post"} posts={popularPosts}></Posts>
+        <Subscription></Subscription>
       </main>
     </>
   );
