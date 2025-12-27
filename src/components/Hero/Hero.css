@@ -1,4 +1,4 @@
-.post__info {
+.hero__info {
   letter-spacing: 0.1em;
   margin-bottom: 5px;
 }
@@ -8,6 +8,7 @@
   color: var(--text-secondary);
   position: relative;
   overflow: hidden;
+  margin-bottom: 40px;
 }
 
 .hero__container {
@@ -21,20 +22,20 @@
   border-radius: 15px;
 }
 
-.post__title {
+.hero__title {
   font-size: 36px;
   line-height: calc(40.3 / 36);
   margin-bottom: 20px;
   max-width: 289px;
 }
 
-.post__description {
+.hero__description {
   max-width: 289px;
   font-weight: 400;
   margin-bottom: 25px;
 }
 
-.post__button {
+.hero__button {
   border: none;
   background-color: var(--hero-btn);
   font-family: var(--font-primary);
@@ -74,16 +75,16 @@
     z-index: 10;
   }
 
-  .post__info {
+  .hero__info {
     margin-bottom: 25px;
   }
 
-  .post__description {
+  .hero__description {
     margin-bottom: 46px;
     max-width: 300px;
   }
 
-  .post__title {
+  .hero__title {
     font-size: 46px;
     line-height: calc(62 / 45);
     max-width: 100%;
@@ -99,25 +100,25 @@
     max-width: 580px;
   }
 
-  .post__info {
+  .hero__info {
     font-size: 16px;
     margin-bottom: 40px;
   }
 
-  .post__title {
+  .hero__title {
     font-size: 64px;
     line-height: 134%;
     margin-bottom: 28px;
   }
 
-  .post__description {
+  .hero__description {
     font-size: 16px;
     line-height: 150%;
     margin-bottom: 64px;
     max-width: 416px;
   }
 
-  .post__button {
+  .hero__button {
     font-size: 14px;
     padding: 16px 48px;
     cursor: pointer;

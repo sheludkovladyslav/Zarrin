@@ -2,6 +2,8 @@
   border: 1px solid var(--post-border);
   border-radius: 15px;
   padding: 20px 17px;
+  position: relative;
+  margin-bottom: 60px;
 }
 
 .popularPost__img {
@@ -33,4 +35,89 @@
 
 .popularPost__description {
   color: var(--post-description);
+  font-family: var(--font-secondary);
+  margin-bottom: 21px;
+  font-weight: 400;
+}
+
+.popularPost__button {
+  color: var(--popular-button);
+  border: 1px solid var(--popular-button);
+  font-family: var(--font-secondary);
+  font-size: 10px;
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+
+@media (min-width: 1024px) {
+  .popularPost__container {
+    border: none;
+    padding: 0 0 85px 0;
+  }
+  .popularPost__img {
+    width: 884px;
+    height: 413px;
+  }
+
+  .popularPost__picture {
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .popularPost__info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: var(--popular-background);
+    max-width: 660px;
+    padding: 23px 75px 23px 23px;
+    border-radius: 12px;
+  }
+
+  .popularPost__title {
+    margin-bottom: 5px;
+  }
+
+  .popularPost__description {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .popularPost__container {
+    padding-bottom: 120px;
+    margin-bottom: 80px;
+  }
+
+  .popularPost__img {
+    width: 1232px;
+    height: 576px;
+  }
+  .popularPost__category {
+    font-size: 12px;
+    gap: 8px;
+    margin-bottom: 25px;
+  }
+
+  .popularPost__title {
+    font-size: 32px;
+    line-height: calc(45 / 32);
+    margin-bottom: 7px;
+    letter-spacing: -1px;
+  }
+
+  .popularPost__info {
+    max-width: 920px;
+    padding: 32px 104px 42px 32px;
+  }
+
+  .popularPost__description {
+    font-size: 16px;
+    margin-bottom: 38px;
+  }
+
+  .popularPost__button {
+    font-size: 14px;
+    padding: 10px 28px;
+  }
 }

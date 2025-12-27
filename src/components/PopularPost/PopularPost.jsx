@@ -6,7 +6,7 @@ export const PopularPost = ({}) => {
     <section className="popularPost main__popularpopularPost">
       <div className="popularPost__container container">
         <div className="popularPost__img">
-          <img src={img} alt="" />
+          <img src={img} alt="" className="popularPost__picture" />
         </div>
 
         <div className="popularPost__info info">
@@ -21,7 +21,9 @@ export const PopularPost = ({}) => {
           <p className="popularPost__description">
             Google has been investing in AI for many years and bringing its
             benefits to individuals, businesses and communities. Whether it’s
-            publishing state-of-the`everyone.
+            publishing state-of-the-art research, building helpful products or
+            developing tools and resources that enable others, we’re committed
+            to making AI accessible to everyone.
           </p>
           <button className="popularPost__button">Read More</button>
         </div>
