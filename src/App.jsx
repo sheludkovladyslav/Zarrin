@@ -8,6 +8,7 @@ import { Posts } from "./components/RecentPost/Posts";
 import recentPosts from "./db/RecentPosts.json";
 import popularPosts from "./db/PopularPosts.json";
 import Subscription from "./components/Subscription/Subscription";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -21,6 +22,10 @@ function App() {
         <Posts title={"Popular Post"} posts={popularPosts}></Posts>
         <Subscription></Subscription>
       </main>
+
+      <footer className="footer">
+        <Footer></Footer>
+      </footer>
     </>
   );
 }
